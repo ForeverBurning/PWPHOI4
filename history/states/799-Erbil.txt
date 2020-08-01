@@ -1,0 +1,26 @@
+state={
+	id=799
+	name="Erbil"
+
+	state_category = city
+
+	history={
+		owner = KFR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = KFR
+		victory_points = {
+			3916 15
+		}
+	}
+	provinces={
+		3916 5014 10811 6826 8123 10793
+	}
+
+	manpower=1203015
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=680
+	name="STATE_680"
+	manpower = 324110
+	resources={
+		steel=5
+		aluminium=6
+		chromium=3
+	}
+	state_category = rural
+	history={
+		owner = SYV
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SYV
+		victory_points = {
+			12316 1
+		}
+	}
+	provinces={
+		901 1549 1578 1606 1634 6883 10882   
+	}
+}

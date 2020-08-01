@@ -1,0 +1,11 @@
+state= {
+	id=132
+	name="STATE_132" # Lancashire
+	manpower = 5770454
+	
+	state_category = metropolis
+
+	provinces= {
+		3205 6318 6335 6384
+ 	}
+}

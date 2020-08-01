@@ -1,0 +1,26 @@
+state={
+	id=797
+	name="Baku"
+	history={
+		owner = AZR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 0
+			air_base = 0
+
+		}
+		add_core_of = AZR
+		victory_points = {
+			7661 5
+		}
+	}
+	state_category = rural
+	provinces={
+		4458 4545 6763 7495 7661 11645 
+	}
+
+	manpower=102541
+	buildings_max_level_factor=1.000
+}

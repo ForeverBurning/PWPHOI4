@@ -1,0 +1,99 @@
+		ideas = {
+
+			country = {
+
+				CBL_gvardiya_focus = {
+					
+					allowed = {
+						always = no # Unlocked via focus
+					}
+
+					allowed_civil_war = {
+						always = yes
+					}
+
+					removal_cost = -1
+					
+					modifier = {
+						conscription = 0.01
+						army_org_factor = 0.1
+					}
+
+
+				}
+
+				CBL_militsiya_focus = {
+					
+					allowed = {
+						always = no # Unlocked via focus
+					}
+
+					allowed_civil_war = {
+						always = yes
+					}
+
+					removal_cost = -1
+					
+					modifier = {
+						non_core_manpower = 0.08
+						army_org_factor = -0.1
+					}
+
+					
+				}
+
+				CBL_fortress_focus = {
+					
+					allowed = {
+						always = no # Unlocked via focus
+					}
+
+					allowed_civil_war = {
+						always = yes
+					}
+
+					removal_cost = -1
+					
+					modifier = {
+						defence = 0.35
+						army_speed_factor = -0.2
+					}
+				}
+				CBL_assault_focus = {
+					
+					allowed = {
+						always = no # Unlocked via focus
+					}
+
+					allowed_civil_war = {
+						always = yes
+					}
+
+					removal_cost = -1
+					
+					modifier = {
+						offence = 0.2
+						army_speed_factor = 0.1
+					}
+				}
+				CBL_universal_service = {
+					allowed = {
+						always = yes
+					}
+
+					allowed_civil_war = {
+						always = yes
+					}
+
+					removal_cost = -1
+					
+					modifier = {
+						conscription_factor = 0.2
+						war_support_factor = 0.4
+					}
+				}
+
+
+
+			}
+		}

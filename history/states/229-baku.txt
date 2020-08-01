@@ -1,0 +1,28 @@
+
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		1467 1536 1539 1610 4473 4477 4614 9715 11674 11704 12434 
+	}
+	state_category = rural
+	resources={
+		oil=40 # was: 126.000
+		steel=10
+	}
+	history={
+		owner = AZR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = AZR
+		victory_points = {
+			11696 3
+		}
+		
+	}
+	manpower=881049
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

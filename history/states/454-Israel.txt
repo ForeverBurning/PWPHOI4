@@ -1,0 +1,30 @@
+
+state={
+	id=454
+	name="STATE_454" #Palestine
+	manpower = 1933142
+	
+	state_category = metropolis
+	resources={
+		steel=20
+		aluminium=4
+		chromium=5
+	}
+	history={
+		owner = SIS
+		buildings = {
+			infrastructure = 7
+			arms_factory = 5
+			industrial_complex = 5
+
+		}
+		add_core_of = SIS
+		victory_points = {
+			1086 50
+		}
+	}
+	provinces={
+		1015 1065 1086 1201 4088 4206 7107 7176 11970 1
+	}
+
+}

@@ -1,0 +1,26 @@
+state={
+	id=798
+	name="Southern Armenia"
+
+	state_category = rural
+
+	history={
+		owner = ARR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ARR
+		victory_points = {
+			11880 1
+		}
+	}
+	provinces={
+		4583 12376 7470 11880 652
+	}
+
+	manpower=102347
+	buildings_max_level_factor=1.000
+}

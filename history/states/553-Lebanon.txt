@@ -1,0 +1,29 @@
+
+state={
+	id=553
+	name="STATE_553"
+	manpower = 1104000
+	
+	state_category = town
+	resources={
+		oil=2
+		steel=10
+		chromium=4
+	}
+	history={
+		owner = SIS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = SIS
+		victory_points = {
+			792 5
+		}
+	}
+	provinces={
+		792 1108 11919 
+	}
+}

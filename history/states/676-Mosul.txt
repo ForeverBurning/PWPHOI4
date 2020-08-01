@@ -1,0 +1,25 @@
+state={
+	id=676
+	name="STATE_676"
+	manpower = 1182741
+	
+	state_category = town
+	
+	history={
+		owner = KFR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = KFR
+		victory_points = {
+			1600 5
+		}
+	}
+
+	provinces={
+		1600 1938 10106 10804 12372 
+	}
+}

@@ -1,0 +1,126 @@
+﻿capital = 232
+
+OOB = "CBL_1936"
+
+# Starting tech
+
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_recon = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_mountaineers = 1
+		motorised_infantry = 1
+		gw_artillery = 1
+		interwar_antiair = 1
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_heavy_tank = 1
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		tactical_bomber1 = 1
+		strategic_bomber1 = 1
+		CAS1 = 1
+		naval_bomber1 = 1
+		
+		mobile_warfare = 1
+		trade_interdiction = 1
+		formation_flying = 1
+		synth_oil_experiments = 1
+		fuel_silos = 1
+		fuel_refining = 1
+	}
+
+	if = {
+		limit = {
+			not = { has_dlc = "Man the Guns" }
+		}
+		set_technology = {
+			early_submarine = 1
+			basic_submarine = 1
+			early_destroyer = 1
+			early_light_cruiser = 1
+			early_heavy_cruiser = 1
+			early_battleship = 1
+			early_battlecruiser = 1
+			transport = 1
+		}
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_technology = {
+			early_ship_hull_submarine = 1
+			basic_ship_hull_submarine = 1
+			early_ship_hull_light = 1
+			early_ship_hull_cruiser = 1
+			early_ship_hull_heavy = 1
+			mtg_transport = 1
+			basic_battery = 1
+			basic_torpedo = 1
+		}
+	}
+
+set_research_slots = 4
+
+set_convoys = 20
+
+
+add_ideas = {
+
+	
+
+	#laws
+	limited_exports
+	tot_economic_mobilisation
+	service_by_requirement
+
+	#nat_spirits
+	CBL_universal_service
+}
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 0
+	communism = 5
+	neutrality = 5
+	ultranationalism = 70
+}
+
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = ultranationalism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 20
+		fascism = 0
+		communism = 5
+		neutrality = 5
+		ultranationalism = 70
+	}
+}
+
+create_country_leader = {
+	name = "Ali Khadzhiyev"
+	desc = ""
+	picture = "gfx/leaders/CBL/Portrait_Khadziyev.dds"
+	ideology = restorationism
+	traits = { dictator
+		#
+	}
+}

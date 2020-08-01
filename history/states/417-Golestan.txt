@@ -1,0 +1,22 @@
+
+state={
+	id=417
+	name="STATE_417" # Hamadan
+	manpower = 796396
+	history={
+		owner = NIS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			8040 5 
+		}
+		add_core_of = NIS
+	}
+	state_category = rural
+	provinces={
+		1982 2065 8040 8125 10922 
+	}
+}
