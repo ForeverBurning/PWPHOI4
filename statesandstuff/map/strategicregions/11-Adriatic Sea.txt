@@ -1,0 +1,9 @@
+strategic_region={
+	id=11
+	name="STRATEGICREGION_11"
+	provinces={
+		10978 12168 12872 14225 14521 14597 15607 15640 15650 
+	}
+	weather={
+	}
+}
